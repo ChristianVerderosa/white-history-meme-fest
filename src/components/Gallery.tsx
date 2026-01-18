@@ -15,23 +15,13 @@ const Gallery = () => {
           Join the most epic community in crypto history
         </p>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {/* Banner image */}
-          <div className="relative group overflow-hidden rounded-xl border border-border bg-card">
-            <img
-              src={banner}
-              alt="White History Month Banner"
-              className="w-full h-64 md:h-80 object-cover transition-transform duration-500 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </div>
-
-          {/* Hero collage */}
+        <div className="max-w-4xl mx-auto">
+          {/* Hero collage - centered and expanded */}
           <div className="relative group overflow-hidden rounded-xl border border-border bg-card">
             <img
               src={heroCollage}
               alt="White History Month Collage"
-              className="w-full h-64 md:h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-80 md:h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
